@@ -388,7 +388,7 @@ class MiscFeatures {
                     it.contains("§bRight-Click")
                 }) return
             event.isCanceled = true
-            mc.playerController.windowClick(chest.windowId, event.slotId, 2, 0, mc.thePlayer)
+            mc.playerController.windowClick(chest.windowId, event.slotId, 2, 3, mc.thePlayer)
         }
     }
 
